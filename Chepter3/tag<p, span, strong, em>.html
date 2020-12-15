@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- <p> : แสดงข้อความในแต่ละย่อหน้า -->
+<!-- การปรับแต่งคุณสมบัติ Element เรียกว่า Attribute-->
+<!-- <p Attribute=value > content </p> -->
+<!-- 
+    id    : ใช้กำหนดรหัสไอดีให้กับ element ไม่ซ้ำกับ element อื่น 
+    class : กำหนดคราสให้ element
+    contenteditable : อนุญาติให้แก้ไขข้อความได้ 
+    style : ใช้เพื่อกำหนด CSS 
+    hidden : กำหนด element ถูกซ้อนบน เว็บเพจ 
+-->
+<!-- 
+    <em> : ทำตัวอักษรให้เอียง 
+    <stronเ> : ทำตัวอักษรให้หนาขึ้น  
+-->
+<html lang="th">
+    <head> 
+        <meta charset="UTF-8">
+        <title> My page name </title>
+    </head>
+    <body> 
+        <div> 
+        <p style="color: blueviolet;"> This is a book </p>
+        <p contenteditable="true" class="my_class" id="first"> This is a book </p>
+        </div>
+        <div >
+        <span> ใส่ข้อความโดยไม่ต้องเว้นบรรทัด </span>
+        <span style="color: violet;"> ใส่ข้อความโดยไม่ต้องเว้นบรรทัด </span>
+        <strong> <em> ใกำหนดให้ตัวอักษรหนาขึ้น </em></strong>
+        <em>  กำหนดตัวอักษรให้เอียยง </em>
+        </div>
+        <div>
+            <p> การทดลอง style </p>
+            <p> การใช้ข้อความ </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<!-- 
+    การเชื่อมลิงค์ด้วย tag <a>  : href 
+    การใส่รูปภาพด้วย tag <img> : src 
+    การกำหนดลำดับด้วย tag <ol> : <li> is a Child element 
+    การไม่กำหนดเลขลำดับด้วย tag <ul> : <li> is a Child element 
+    การบังคับขึ้นย่อหน้าด้วย tag <br/> 
+-->
+<html lang="th"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title> การลองลิงค์ไปเว็บต่างๆ </title>
+    </head>
+    <body> 
+         <!-- การกำหนดหรือการสร้างลิงค์ด้วย tag <a> โดยมี attribute href -->
+        <div id="container"> 
+            <a href="https://www.google.co.th/?gws_rd=cr&ei=u2YcV5WCCMLhuQTG64LQBg"> 
+            ไปยังเว็บ google </a>
+        </div>
+        <div>
+            <a href=" https://www.netflix.com/browse " > ไปยังเว็บ Netfrix </a>
+        </div>
+        <!-- การใส่รูปภาพโดยสร้างจาก tag <img> โดยกำหนด attribute src-->
+        <div id="container"> 
+            <img src="https://travel.mthai.com/app/uploads/2019/04/Gyeongju-47.jpg">
+        </div>
+        <!-- การกำหนกลำดับ order list <ol> สามารถกำหนด attribute typeของภาษาได้ -->
+        <div style="color: brown;">  
+            <ol type="A"> 
+                <li>ตั้งใจอ่าน</li>
+                <li>ทำแบบฝึกหัด</li> 
+                <li> ดูโค้ดตัวอย่างจากอินเตอร์เน็ต </li>
+            </ol>
+            
+        </div>
+        <!-- การกำหนดลำดับ unordered List <ul> การแสดงแบบไม่มีลำดับ -->
+        <div style="color: olivedrab;"> 
+            <ul> 
+                <li> HTML</li>
+                <li> CSS</li>
+                <li> PHP </li>
+            </ul>
+
+        </div>
+        <!-- การบังคับขึ้นบันทัดใหม่ --> 
+        <div> 
+            <p> ข้อความจากย่อหน้า </p>
+            <span>ข้อความย่อหน้าแรก </span> 
+            <br/> 
+            <span> ข้อความส่วนที่สอง </span>
+        </div>
+    </body>
+</html>
