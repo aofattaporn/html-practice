@@ -1,0 +1,13 @@
+div { 
+    width: 300px;
+    height: 20px;
+    border: 2px solid green;
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0px;
+    left: 0px;
+}
+p { 
+    margin-top: 50px;
+}

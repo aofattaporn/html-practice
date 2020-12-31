@@ -1,0 +1,68 @@
+
+/* 
+    css-Position 
+    - Static 
+    - relative 
+    - fixed 
+    - absolute 
+    - sticky 
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section { 
+    background-color: rgb(3, 80, 94);
+ 
+    color: rgb(9, 0, 0);
+
+    background-image: url(../img_test/backgroundtest.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    /* borde: 2px, dotted p; */
+    border-width: 10px;
+    border-style: dashed;
+    border-color: mediumorchid;
+    
+}
+.visibility { 
+    /* visibility: hidden; */
+    display: none;
+}
+section h1 { 
+    background-color: coral;
+    display: inline;
+}
+section p { 
+    padding-left: 10px;
+}
+
+.ex1 { 
+    width: 500px;
+    border: 2px solid red;
+    margin-top: auto;
+}
+.ex2 { 
+    max-width: 500px;
+    border: 2px solid green;
+
+}
+
+header { 
+    background-color: blueviolet;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+aside { 
+    width: 40%;
+    float: right;
+    height: 300px;
+    background-color: dodgerblue;
+
+}
