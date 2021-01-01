@@ -1,0 +1,37 @@
+body { 
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#header { 
+    background-color: darkseagreen;
+    height: 120px;
+    float: top;
+    
+}
+#h4 { 
+    color: aliceblue;
+    padding: 20px;
+    font-size: 1rem;
+    float: left;
+}
+article > main { 
+    background-color: blueviolet;
+    width: 70%;
+    height: 300px;
+    float: left
+    
+}
+article > aside { 
+    background-color: hotpink;
+    width: 30%;
+    height: 300px;
+    float:right
+    
+}
+footer { 
+    background-color: yellow;
+    width: auto;
+    height: 100px;
+    clear: both;
+}
