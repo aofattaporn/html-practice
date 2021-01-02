@@ -1,19 +1,21 @@
-body { 
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 #header { 
     background-color: darkseagreen;
     height: 120px;
     float: top;
-    
+    margin: 20px 20px 0px;    
 }
 #h4 { 
     color: aliceblue;
     padding: 20px;
     font-size: 1rem;
     float: left;
+    font-size: 20px;
 }
 article > main { 
     background-color: blueviolet;
