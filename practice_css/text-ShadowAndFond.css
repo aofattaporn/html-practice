@@ -1,0 +1,58 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20;
+}
+@font-face{ 
+    font-family: myfont;
+    src: url(../../../F0nt/FC\ Lamoon/) format("truetype");
+}
+h4 { 
+    background-color: rgb(202, 142, 216);
+    border: 2px solid white;
+    height: 10px;
+    padding: 50px;
+    font-size: 30px;
+
+}
+/* 
+    ประกอบด้วย 3 ส่วน 
+    1-horizontal offset : เงาด้านขวา 
+    2-vertical-offset   : เงาด้านล่าง
+    3-blur  : ความเบลอของเงา 
+    4-color : สีของเงา  
+ */
+#text-1 { 
+    text-shadow: 3px 4px 5px white;
+    font-family: kanit;
+}
+#text-2 { 
+    text-shadow: 3px 1px 0px white;
+    font-family: kanit;
+
+
+}
+#text-3 { 
+    color: white;
+    text-shadow: 0px 3px 0px rgb(0, 0, 0);
+
+}
+#text-4 { 
+    text-shadow: 1px 1px 8px #d2d;
+}
+#text-5 { 
+    color: #999;
+    text-shadow: 0px 1px 0px #000, 0px -1px 0px #bbb ;
+    /* สามารถใส่สองเงาได้ในตัวเดียวโดยกำหนด , */
+}
+/* 
+    การกำหนดtest-stroke : อาจะต้องมีการกำหนด Vendor prefix
+    1-ความกว้างของเส้น 
+    2-สีที่ใช้ 
+
+ */
+ #text-6 { 
+     background-color: rgb(189, 180, 156);
+    color: azure;
+    -webkit-text-stroke: .5px red;
+ }
