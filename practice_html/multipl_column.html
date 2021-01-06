@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mulriple-column</title>
+
+    <style> 
+        #multicolumn { 
+            /* 
+            column-count :  จำนวน column 
+            column-width :  ความกว้างของ column 
+            column-gap  : ระยะห่างระหว่าง column 
+            column-rule : คุณลักษณะของเส้นคั่น
+
+             */
+            -webkit-column-count: 3; 
+            -webkit-column-width: 1em;
+            -webkit-column-gap: 2em;
+            -webkit-column-rule: 10px solid #ebf2b4;
+            }
+        
+        h1 { 
+            -webkit-column-span: all;
+            
+            color: rgba(255, 0, 0,0.3); 
+            /* you can use rgba by add number of Aipha number  */
+        }
+    </style>
+</head>
+<body>
+    <div id="multicolumn"> 
+        <h1>Multiple column</h1>
+        <p>Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+            Hello World!Hello World!Hello World!Hello World!
+        </p>
+        <p>Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World
+            Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World
+        </p>
+    </div>
+    
+</body>
+</html>

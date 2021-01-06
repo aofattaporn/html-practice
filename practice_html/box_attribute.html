@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box_attribute</title>
+
+    <style>
+        #area { 
+            margin: 40px;
+            width: 320px;
+            height: 240px;
+            background-color: rgba(0, 128, 0, 0.8);
+        }
+        #area2 { 
+            margin: 40px;
+            width: 320px;
+            height: 240px;
+            background-color: rgba(0, 128, 0, 0.8);
+        }
+        #area3 { 
+            margin: 40px;
+            width: 320px;
+            height: 240px;
+            background-color: rgba(0, 128, 0, 0.8);
+        }
+        #flex-container-row1 { 
+            display: flex;
+            flex-direction: row;
+        }   
+        .areal { 
+            box-shadow: inset 5px 5px 20px black;
+            flex-grow: 1;
+        }
+        .areal2 { 
+            box-shadow: 5px 5px 20px black;
+            border-radius: 20px;
+            flex-grow: 1;
+
+        }
+        .areal3 { 
+            box-shadow: inset 5px 5px 20px black; 
+            border-radius: 40px 30px 20px 10px;
+            /* display: flex;
+            flex-grow: 1; */
+        }
+    </style>
+
+</head>
+<body>
+    <!-- you can assign shadow the box by box-shadow command -->
+    <!-- There are attribute of the shadow to be defind -->
+    <!-- 
+        1-horizintal offset 
+        2-vertical offset
+        3-blur 
+        4-color 
+    -->
+    <div id="flex-container-row1">
+        <div id="area" class="areal"></div>
+        <div id="area" class="areal2"></div>
+    </div>  
+        <div id="area" class="areal3"></div>
+
+    <!-- <div id="area3" class="areal3"></div> -->
+
+
+</body>
+</html>
