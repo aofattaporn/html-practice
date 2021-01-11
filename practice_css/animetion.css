@@ -1,0 +1,39 @@
+@-webkit-keyframes myanimation { 
+    /* เป็นการกำหนดจุดเริ่มต้นและจุดสุดท้ายพร้อมกัน  */
+    from{     /* กำหนดจุดเริ่มต้น  */
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{     /* กำหนดจุดสิ้นสุด  */
+        -webkit-transform: translate(100px, 0px) rotate(30deg);
+    }
+}
+#mydiv { 
+    background-color: aliceblue;
+    -webkit-animation-name: myanimation; 
+    -webkit-animation-duration: 3s;     เ
+}
+
+
+    /* 
+    transition-timing-function have 4 type is 
+    1-linear
+    2-ease
+    3-ease-in
+    4-ease-in-out 
+    */
+
+#transition { 
+    background-color: rgb(0, 43, 39);
+    width: 240px;
+
+    /* transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    transition-timing-function: ease; */
+}
+
+#transition:hover{ 
+    background-color: rgba(64, 224, 208, 0.536);
+    transform: rotate(5deg);
+    transform: scale(1, 1.1);
+}
