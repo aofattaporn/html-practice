@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_table</title>
+<!-- 
+    เริ่มจากแท๊ก table  
+    <cation>:   แสดงรายชื่อของตาราง 
+    <thead> :   แสดงหัวข้อของตาราง
+    <tbody> :   แสดงข้อมูลของตาราง
+    <tfoot> :   แสเงข้อมูลสรุปท้ายตาราง
+    <tr>    :   แสดงแต่ละแถวของตาราง *
+    <td>    :   เป็นส่วนที่แสดงของแต่ละเซลล์ *
+    <th>    :   เป็นส่วนที่แต่ละเซลล์ต้องการเน้น 
+-->
+
+<!-- 
+    attribute in tage table<table>
+        1-colspan : Specifies the number of columns a cell should span
+        2-headers : Specifies one or more header cells a cell is related to
+        3-rowspan : Sets the number of rows a cell should span
+ -->
+
+ <style> 
+    #table-test { 
+        background-color: lightpink;
+        color: darkviolet;
+        width: 400px;
+        height: 200px;
+
+     }
+
+    caption { 
+
+        color: black;
+        background-color: aqua;
+        margin-top: 10px;
+        
+    }
+    #table2 { 
+        background-color: darkblue;
+        color: white;
+        width: 300px;
+    }
+    tr > td { 
+        border: 4px solid cyan;
+        text-align: center;
+    }
+
+    #table3 { 
+        margin-top: 20px;
+        width: 300px;
+        color: aliceblue;
+    }
+    th { 
+        border: 4px soolid skyblue;
+    }
+    thead, tfoot{ 
+        background-color: darkgreen;
+    }
+    tbody { 
+        background-color: darksalmon;
+    }
+
+
+
+    
+ </style>
+</head>
+<body>
+    <section> 
+        <table id="table-test"> 
+            <tr>
+                <td >แถวหนึ่งคอลัมน์หนึ่ง</td>
+                <td >แถวหนึ่งคอลัมน์สอง</td>
+            </tr>
+            <tr> 
+                <td>แถวสองคอลัมน์หนึ่ง</td>
+                <td>แถวสองคอลัมน์สอง</td>
+            </tr>
+            <tr> 
+                <td>แถวสองคอลัมน์หนึ่ง</td>
+                <td>แถวสองคอลัมน์สอง</td>
+            </tr> 
+
+        </table>
+
+        <table id="table2"> 
+            <caption>  ตารางของผมเองนะครับ  </caption>
+            <tr> 
+                <td>  แถว 1 คอลัมน์ 1 </td> <td>  แถว 1 คอลัมน์ 2 </td>
+            </tr>
+            <tr> 
+                <td>  แถว 2 คอลัมน์ 1 </td> <td>  แถว 2 คอลัมน์ 2 </td>
+            </tr>
+        </table>
+
+        <table id="table3">
+            <thead>
+                <tr> 
+                    <th> ชื่อสินค้า </th> <th> ยอดขาย </th>
+                </tr>
+            </thead> 
+            <tbody> 
+                <tr>
+                    <td> Apple iPhone X</td> <td> 300 </td>
+                </tr>
+                <tr>
+                    <td> Apple iPhone X</td> <td> 300 </td>
+                </tr>
+            </tbody>
+            <tfoot> 
+                <tr> 
+                    <th> รวม </th> <th> 600 </th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </section>
+</body>
+
+</html>
