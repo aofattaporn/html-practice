@@ -7,6 +7,24 @@ Alignment : สามารถกำหนด alignment ของ flexbox ต่
 
  */
 
+/* 
+    การใช้ flex (กำหนด display : flex ใน container )
+    Flex cotainer : html element ที่หนก property"display" ให้เป็น flex หรือ inline-flex 
+    Flex item     : elemt ที่เป็น child ของ flexcontainer 
+
+    พอเปลี่ยนเป็น display : flex; -> orientation : row
+    ?flex-direction : column / row  / column-revers / row-revers
+
+    flex -> Sizing
+    ?flex-grow: (number) -> การกาง flex items 
+    ?order: (number)
+
+    Alignment 
+    ?justufy-content : กำหนดการจัดตำแหน่งของ flex items เมื่อเทียบกับทิศทาง กำหนดที่ flrx-container
+    ?align-content :    กำหนดการจัดตำแหน่งของ flex items เมื่อเทียบกับทิศทางที่ตรง กำหนดที่ flrx-container
+    ?align-self : คล้ายกับ align-items แต่จะสามารถกำหนดที่แต่ละ flex item ได้
+
+*/
 
 * { 
     box-sizing: border-box;
