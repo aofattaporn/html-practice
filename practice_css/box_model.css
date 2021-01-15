@@ -1,0 +1,21 @@
+/* they give margin 8 px default */
+/* I must to define every erement margin 0px and padding 0*/
+* { 
+    margin: 0px;
+}
+header { 
+    background-color: lightpink;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    /* padding : ระยะห่างระหว่าง border กับกล่องข้อความ  */
+    /* margin : ระยะห่างของ element  */
+    margin: 20px;
+}
+header p { 
+    padding-left: 20px;
+    padding-top: 20px;
+    /* margin: 20px; */
+    /* การกำหนด padding 4 : ตามเข็มนาฬิกา, 2 : บนล่าง ซ้ายขวา, 3 : บน ซ้ายขวา ล่าง */
+    /* เมื่อเรากำหนด padding ที่ขนาดกล่อง จะทำให้ กล่องไม่ขยาย ขนาด  */
+}
