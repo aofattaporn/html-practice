@@ -1,0 +1,116 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+/* Header */
+header { 
+    background-color: rgb(96, 96, 181);
+    height: 100px;
+
+}
+header section{ 
+    padding: 30px 20px ;
+    text-align: center;
+}
+
+header section h1 { 
+    color: aliceblue;
+    font-family: kanit;
+    letter-spacing: 2px;
+}
+
+
+/* FONT - STYLE */
+caption { 
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: kanit;
+    color: aliceblue;
+}
+table { 
+    margin: 100px;
+}
+/* tr { 
+    margin: 20px;
+
+} */
+/*td is child elements of tr*/
+td { 
+    border:2px solid ;
+    padding: 20px;
+    width: 220px;
+
+    font-size: 20px;
+    font-family: kanit;
+}
+.table_left { 
+    border: 2px solid black;
+    background-color: rgb(29, 201, 201);
+}
+.table_righ:hover {
+    background-color: rgb(29, 201, 201);
+}
+.table_righ { 
+    color: aliceblue;
+    border: 2px solid black;
+    background-color: rgb(19, 128, 128);
+}
+#font-size { 
+    font-size: 5px;
+}
+#font-weight { 
+    font-weight: bolder;
+}
+#letter-spacing { 
+    letter-spacing: 5px;
+}
+#line-hight { 
+    line-height: 5px; /* ระยะห่างของบรรทัด */
+}
+
+
+/* TESXT - DECORATION */
+.table_left2 { 
+    background-color: rgba(221, 160, 221, 0.701);
+    
+}
+.table_righ2 { 
+    background-color: rgba(235, 89, 235, 0.701);
+    color: aliceblue;
+    border: 2px solid black;
+}
+.table_righ2:hover { 
+    background-color: rgba(221, 160, 221, 0.701);
+}
+#none {
+    text-decoration: none;
+}
+#underline { 
+    text-decoration: underline;
+}
+#overline { 
+    text-decoration: overline;
+}
+#line-through { 
+    text-decoration: line-through;
+}
+#blink { 
+    text-decoration: blink;
+}
+#inherite { 
+    text-decoration: inherite;
+    /* สืบทอดมาจาก parent element  */
+}
+
+.container { 
+    display: flex;
+    background: url(https://www.zw3dthailand.com/wp-content/uploads/2017/02/background-bg.jpg);
+    height: 1000px;
+}
+
+
+
+
+
