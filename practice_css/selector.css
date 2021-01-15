@@ -1,0 +1,50 @@
+/* ปกติทั่วไป */
+/* # : id  -> all erement have id brabra */
+/* . : class -> all erement have class brabra */
+/* parent > child */
+/* element, element -> select element1 and element2 */
+
+
+
+/* การเลือก selector ในรูปแบบต่างๆ */
+div { 
+margin: 20px;
+}
+/* เป็นการเลือก element ที่มี attribute title */
+div h1[title=""] { 
+    /* เป็นการเลือก element ที่มี attribute title */
+    background-color: aqua;
+}
+
+/* เป็นการเลือก element ที่จากลักษณะ hover */
+/* h1 > a:hover[href] */
+#test1 { 
+    background-color: rgb(123, 11, 228);
+}
+#test1:hover{ 
+    background-color: rgb(211, 196, 225);
+}
+h1 > a { 
+    text-decoration: none;
+    color: white;
+}
+h1 > a:hover[href] { 
+    text-decoration:line-through;
+    color: rgb(155, 249, 189);
+    width: 500px;
+    
+}
+
+
+/* เป็นการเลือก element จาก value ืี่กำหนด attribute */
+/* h1 > a:hover[href] */
+div h1[title="select_title"] { 
+    background-color: rgb(218, 190, 121);
+}
+
+/* เป็นการเลือก element จาก value ืี่กำหนด attribute คำลงท้าย  */
+/* h1 > a:hover[href] */
+div h1[title~="You"] { 
+    background-color: lightcoral;
+}
+
