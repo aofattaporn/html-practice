@@ -77,18 +77,18 @@ aside {
 .aside_bar { 
     padding-top: 2rem;
     list-style: none;
-    padding-left: 20px;
 }
 
 .aside_bar > li { 
     height: 30px;
-    padding-left: 20px;
+    padding: 20px;
+    
 }
 .aside_bar > li > a { 
     text-decoration: none;
 
 }
-.aside_bar > li :hover { 
+.aside_bar > li:hover { 
     background-color: rgba(201, 204, 206, 0.406);
 }
 
