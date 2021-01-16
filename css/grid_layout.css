@@ -1,0 +1,66 @@
+
+body { 
+    padding: 0px;
+    margin: 0px;
+}
+/*
+    ต้องสร้าง grid-container ก่อนที่ปกคลุมส่วนต่างๆ 
+    ใช้คำสั่ง display : grid; 
+
+    gird-template-columns: กำหนดขนาดของแต่ละคอลัมล์;
+    gird-template-rows: กำหนดขนาดของแต่ละแถว;
+
+    gird-template-columns/rows: minmax(ขนาดที่เล้กที่สุด, ขนาดที่ใหย่ที่สุด);
+
+    gird-template-columns/rows: repeat(ที่เท่าไหร่บ้างม, ขนาดของcolumn);
+
+    / grid-items
+    grid-column-start
+    grid-column-end
+    grid-row-start
+    grid-row-end
+    grid-column : [grid-column-start] / [grid-column-end];
+    grid-row : [grid-row-start] / [grid-row-end];
+    grid-arae: [grid-row-start] / [grid-column-start] / [grid-row-end] / [grid-column-end]
+    gr-column/row : span [กำหนดระยะห่างจากจุดเรื่ม]; 
+
+    การตั้งชื่อใน grid 
+
+
+    การจัดตำแหน่งใน grid [block alignment]
+    justtify-item : [start, center, ]
+    align-item : [start, center, ]
+
+
+
+*/
+.grid-container { 
+    display: grid;
+    /*display: inline-grid*/
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]);
+    grid-template-rows: repeat(4, [row-start] 100px [row-end]) ;
+
+
+
+
+
+    background-color: mediumpurple;
+    padding: 1em;
+}
+.grid-items { 
+    border: 1px solid white;
+}
+.grid1 ,.grid2{ 
+   grid-column-end: span 2;
+   grid-row-start: 1;
+}
+.grid1 { 
+    grid-column-start: 1;
+    z-index: 1;
+    background-color: khaki;
+}
+.grid2 { 
+    grid-column-start: 2;
+}
+
+

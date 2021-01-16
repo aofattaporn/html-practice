@@ -1,0 +1,30 @@
+body { 
+    margin:  0px; 
+    padding: 0px;
+
+}
+.grid-container { 
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 150px 200px 60px;
+    background-color: steelblue;
+    padding: 1em; /* ~16px */
+}
+.grid { 
+    border: 1px solid white; 
+}
+.header { 
+    grid-area: header;
+}
+.content { 
+    grid-area: content;
+}
+.sidebar { 
+    grid-area: sidebar;
+}
+.footer { 
+    grid-area: footer;
+}
